@@ -16,7 +16,7 @@ public class Participation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long participationId;
 
     @ManyToOne
     @JoinColumn(name = "userId", nullable = false)
